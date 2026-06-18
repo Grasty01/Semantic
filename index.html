@@ -3,8 +3,144 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="semanstyle.css" />
+    <title>Mon profil Développeur</title>
   </head>
-  <body></body>
+  <body>
+    <!-- En-tête : Mon nom et le menu de navigation -->
+    <header>
+      <h1>Grasty Ghyvet SAMBA DINAULT / Développeur Web Fullstack Junior</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#projects">Projets</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contenu principal -->
+    <main>
+      <article id="about">
+        <h2>Qui suis-je et d'où je viens ?</h2>
+        <p>
+          Passionné par l'écosystème de la tech et la création d'interfaces
+          modernes, je suis actuellement une formation intensive de Développeur
+          Web Fullstack. Basé à Dakar, je combine logique et rigueur pour
+          concevoir des applications web fluides, fonctionnelles et centrées sur
+          l'expérience utilisateur. Déterminé et curieux, je recherche une
+          opportunité pour mettre mon énergie et mes compétences au service de
+          projets digitaux ambitieux.
+        </p>
+      </article>
+
+      <article id="skills">
+        <h2>Mes compétences</h2>
+        <p>
+          Au fil de mon apprentissage et de la réalisation de projets concrets,
+          j'ai développé une expertise technique sur les technologies et outils
+          suivants :
+        </p>
+        <ol>
+          <li>HTML 5 & Sémantique native</li>
+          <li>CSS 3 (Flexbox & Grid Layout)</li>
+          <li>Responsive Web Design</li>
+          <li>Contrôle de version avec Git & GitHub</li>
+          <li>Environnement de développement VS Code</li>
+        </ol>
+      </article>
+
+      <aside id="projects">
+        <h2>Mes projets récents</h2>
+
+        <!-- Liste 3 projets récents-->
+        <section>
+          <h3>Portfolio Personnel</h3>
+          <p>
+            Conception de ma vitrine professionnelle pour mettre en valeur mon
+            parcours. Ce projet m'a permis de maîtriser l'architecture globale
+            d'une page web, la hiérarchie stricte des titres et l'optimisation
+            de l'accessibilité native pour les moteurs de recherche.
+          </p>
+          <div>
+            <code>HTML</code>
+            <code>CSS</code>
+          </div>
+        </section>
+
+        <section>
+          <h3>Page de vente</h3>
+          <p>
+            Intégration d'une page de capture moderne et épurée pour un produit
+            fictif. Le défi principal a été de concevoir une interface
+            entièrement responsive à l'aide de Flexbox, garantissant une
+            expérience utilisateur fluide sur tous les types d'écrans (mobiles
+            et ordinateurs).
+          </p>
+          <div>
+            <code>HTML</code>
+            <code>CSS</code>
+            <code>Flexbox</code>
+          </div>
+        </section>
+
+        <section>
+          <h3>Blog HTML/CSS</h3>
+          <p>
+            Mise en page complexe d'un blog technique structuré avec une zone
+            d'articles principale et une barre latérale. Ce projet a validé ma
+            compréhension des architectures asymétriques grâce à l'utilisation
+            combinée de CSS Grid pour le layout global et de balises sémantiques
+            dédiées.
+          </p>
+          <div>
+            <code>HTML</code>
+            <code>CSS 3</code>
+            <code>Grid</code>
+          </div>
+        </section>
+      </aside>
+
+      <!-- Formulaire de contact -->
+      <form action="#" method="POST">
+        <fieldset>
+          <legend>Laissez-moi un message</legend>
+
+          <div>
+            <label for="name">Votre nom</label>
+            <input type="text" name="name" id="name" required minlength="5" />
+          </div>
+
+          <div>
+            <label for="firstname">Votre prénom</label>
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              required
+              minlength="5"
+            />
+          </div>
+
+          <div>
+            <label for="message">Votre message</label>
+            <textarea
+              name="message"
+              id="message"
+              required
+              minlength="25"
+            ></textarea>
+          </div>
+
+          <button type="submit">Envoyer</button>
+        </fieldset>
+      </form>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+      <p>© 2026 - Grâsty Ghyvet SAMBA DINAULT - Tous droits réservés.</p>
+    </footer>
+  </body>
 </html>
